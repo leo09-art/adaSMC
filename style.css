@@ -1,0 +1,9 @@
+
+
+:root{
+    --color-clifford :red;
+}
+.bg-clifford {
+    /* color: var(--color-clifford); */
+    background-color: yellowgreen;
+}

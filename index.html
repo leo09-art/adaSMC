@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+        @theme {
+            
+        /* --color-clifford: #da373d; */
+      }
+    </style>
+</head>
+
+<body class="text-gray-400 font-mono">
+    <div class="grid md:grid-cols-4 flex ">
+        <div class="p-4 md:col-span-1 justify-end">
+            <nav>
+                <div class="flex items-center ">
+                    <div class="flex items-center">
+                        <div class="bg-emerald-200 h-2 w-5 "></div>
+                        <div class="bg-purple-200 h-4 w-5"></div>
+                        <div class="bg-blue-700 h-6 w-5"></div>
+                    </div>
+                    <h1 class="text-2xl font-bold ml-2">
+                        <a href=""
+                            class="text-gray-300 md: text-blue-300 lg:text-purple-300 hover:text-purple-700 uppercase">smc
+                            ada</a>
+                    </h1>
+                </div>
+                <ul>
+                    <li>
+                        <a href="" class="flex justify-end">
+                            <span class="text-gray-700">Accueil</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6 width-2 ml-2">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                            </svg>
+
+                        </a>
+                    </li>
+                    <li>
+                        <a href=" class=" class="flex justify-end">
+                            <span>a propos</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6 ml-2">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M16.5 12a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0Zm0 0c0 1.657 1.007 3 2.25 3S21 13.657 21 12a9 9 0 1 0-2.636 6.364M16.5 12V8.25" />
+                            </svg>
+
+                        </a>
+                    </li>
+                    <li>
+                        <a href class="flex justify-end">
+                            <span>contact</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6 ml-2">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+                            </svg>
+
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <main class="p-4 md:p-14 bg-gray-100 md:col-span-3">
+            <div class="my-2 text-blue-800 flex justify-center md:justify-end ">
+                <a href=""
+                    class="rounded-full px-2 py-3 cursor-pointer border border-blue-500 hover:bg-blue-800 hover:text-white">CONNEXION</a>
+                <a href=""
+                    class="rounded-full ml-3 px-2 py-3 cursor-pointer border border-blue-500 hover:bg-blue-800 hover:text-white">INSCRIPTION</a>
+            </div>
+            <div>
+                <header class="mt-8">
+                    <h2 class="text-sky-400 text-5xl font-semibold uppercase">auto moto</h2>
+                    <h3 class="font-semibold">Pour les pros</h3>
+                </header>
+                <div>
+                    <div>
+                        <h4 class="text-gray-700 text-3xl my-4 border-b pb-2 border-gray-100">Les plus recents</h4>
+                        <div class="py-16 grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4  ">
+                            <div class="bg-white rounded overflow-hidden shadow-md relative my-2 hover:shadow-lg">
+                                <a href="bmw_s-1000-xr.jpg">
+                                    <img src="bmw_s-1000-xr.jpg" alt=""
+                                        class="w-full sm:h-48 md:h-42 lg:h-36  object-cover">
+                                </a>
+                                <div class="m-4">
+                                    <span class="font-bold text-2xl sm:text-xl uppercase">S1000 XR</span>
+                                    <span class="block  text-lg uppercase">BWM</span>
+                                </div>
+                                <div
+                                    class="bg-blue-200 text-white text-sm p-2 rounded-full inline absolute top-0 ml-2 mt-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="size-5 inline-block">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                                    </svg>
+
+                                    <span class=" uppercase">18 100£</span>
+                                </div>
+                            </div>
+                            <div
+                                class="bg-white rounded overflow-hidden shadow-md relative my-2 hover:shadow-lg hover:scale-1.2">
+                                <a href="BMW-S1000-RR.jpg"><img src="BMW-S1000-RR.jpg" alt=""
+                                        class="w-full sm:h-48 md:h-42 lg:h-36  object-cover">
+                                </a>
+                                <div class="m-4">
+                                    <span class="font-bold text-2xl uppercase">S1000 RR</span>
+                                    <span class="block  text-lg uppercase">BWM</span>
+                                </div>
+                                <div
+                                    class="bg-blue-200 text-white text-sm p-2 rounded-full inline absolute top-0 ml-2 mt-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="size-5 inline-block">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                                    </svg>
+                                    <span class="uppercase">21 400£</span>
+                                </div>
+                            </div>
+                            <div class="bg-white rounded overflow-hidden shadow-md relative my-2 hover:shadow-lg">
+                                <a href="yamaha-MT-07.jpg"><img src="yamaha-MT-07.jpg" alt=""
+                                        class="w-full sm:h-48 md:h-42 lg:h-36  object-cover"></a>
+                                <div class="m-4">
+                                    <span class="font-bold text-2xl uppercase">MT-07</span>
+                                    <span class="block  text-lg uppercase">yamaha</span>
+                                </div>
+                                <div
+                                    class="bg-blue-200 text-white text-sm p-2 rounded-full inline absolute top-0 ml-2 mt-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="size-5 inline-block">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                                    </svg>
+                                    <span class="uppercase">8 300£</span>
+                                </div>
+                            </div>
+                            <div class="bg-white rounded overflow-hidden shadow-md relative my-2 hover:shadow-lg">
+                                <a href="victory's-motorcycle-lineup.jpg"><img src="victory's-motorcycle-lineup.jpg"
+                                        alt="" class="w-full sm:h-48 md:h-42 lg:h-36  object-cover"></a>
+                                <div class="m-4">
+                                    <span class="font-bold text-2xl uppercase">victory's</span>
+                                    <span class="block  text-lg uppercase">motorcycle-lineup</span>
+                                </div>
+                                <div
+                                    class="bg-blue-200 text-white text-sm p-2 rounded-full inline absolute top-0 ml-2 mt-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="size-5 inline-block">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                                    </svg>
+                                    <span class="uppercase"></span>
+                                </div>
+                            </div>
+                            <div class="bg-white rounded overflow-hidden shadow-md relative my-2 hover:shadow-lg">
+                                <a href="triumph-rocket3R-BLACK.jpg"><img src="triumph-rocket3R-BLACK.jpg" alt=""
+                                        class="w-full sm:h-48 md:h-42 lg:h-36  object-cover"></a>
+                                <div class="m-4">
+                                    <span class="font-bold text-2xl uppercase">triumph</span>
+                                    <span class="block  text-lg uppercase">rocket3R</span>
+                                </div>
+                                <div
+                                    class="bg-blue-200 text-white text-sm p-2 rounded-full inline absolute top-0 ml-2 mt-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="size-5 inline-block">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                                    </svg>
+                                    <span class="uppercase">17 500£</span>
+                                </div>
+                            </div>
+                            <div class="bg-white rounded overflow-hidden shadow-md relative my-2 hover:shadow-lg">
+                                <a href="ninja-zx-10rr.jpg"><img src="ninja-zx-10rr.jpg" alt=""
+                                        class="w-full sm:h-48 md:h-42 lg:h-36  object-cover"></a>
+                                <div class="m-4">
+                                    <span class="font-bold text-2xl uppercase">x-10rr</span>
+                                    <span class="block  text-lg uppercase">ninja</span>
+                                </div>
+                                <div
+                                    class="bg-blue-200 text-white text-sm p-2 rounded-full inline absolute top-0 ml-2 mt-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="size-5 inline-block">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                                    </svg>
+                                    <span class="uppercase">19 599£</span>
+                                </div>
+                            </div>
+                            <div class="bg-white rounded overflow-hidden shadow-md relative my-2 hover:shadow-lg">
+                                <a href="new-chinese-motorcycle-brand-zero-presents-the-lh450-bobber.jpg"><img
+                                        src="new-chinese-motorcycle-brand-zero-presents-the-lh450-bobber.jpg" alt=""
+                                        class="w-full sm:h-48 md:h-42 lg:h-36  object-cover"></a>
+                                <div class="m-4">
+                                    <span
+                                        class="font-bold text-2xl uppercase">brand-zero-presents-the-lh450-bobber</span>
+                                    <span class="block  text-lg uppercase">new-chinese</span>
+                                </div>
+                                <div
+                                    class="bg-blue-200 text-white text-sm p-2 rounded-full inline absolute top-0 ml-2 mt-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="size-5 inline-block">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                                    </svg>
+                                    <span class="uppercase"></span>
+                                </div>
+                            </div>
+                            <div class="bg-white rounded overflow-hidden shadow-md relative my-2 hover:shadow-lg">
+                                <a href="kymco-supernex-electrical.jpg"><img src="kymco-supernex-electrical.jpg" alt=""
+                                        class="w-full sm:h-48 md:h-42 lg:h-36  object-cover"></a>
+                                <div class="m-4">
+                                    <span class="font-bold text-2xl uppercase">supernex-electrical</span>
+                                    <span class="block  text-lg uppercase">kymco</span>
+                                </div>
+                                <div
+                                    class="bg-blue-200 text-white text-sm p-2 rounded-full inline absolute top-0 ml-2 mt-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="size-5 inline-block">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                                    </svg>
+                                    <span class="uppercase"></span>
+                                </div>
+                            </div>
+                            <div class="bg-white rounded overflow-hidden shadow-md relative my-2 hover:shadow-lg">
+                                <a href="Kymco-RevoNEX.jpg"><img src="Kymco-RevoNEX.jpg" alt=""
+                                        class="w-full sm:h-48 md:h-42 lg:h-36  object-cover"></a>
+                                <div class="m-4">
+                                    <span class="font-bold text-2xl uppercase">Kymco</span>
+                                    <span class="block  text-lg uppercase">RevoNEX</span>
+                                </div>
+                                <div
+                                    class="bg-blue-200 text-white text-sm p-2 rounded-full inline absolute top-0 ml-2 mt-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="size-5 inline-block">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                                    </svg>
+                                    <span class="uppercase"></span>
+                                </div>
+                            </div>
+                            <div class="bg-white rounded overflow-hidden shadow-md relative my-2 hover:shadow-lg">
+                                <a href="Kawasaki-ZX-10R.jpg"><img src="Kawasaki-ZX-10R.jpg" alt=""
+                                        class="w-full sm:h-48 md:h-42 lg:h-36  object-cover"></a>
+                                <div class="m-4">
+                                    <span class="font-bold text-2xl uppercase">ZX-10R</span>
+                                    <span class="block  text-lg uppercase">Kawasaki</span>
+                                </div>
+                                <div
+                                    class="bg-blue-200 text-white text-sm p-2 rounded-full inline absolute top-0 ml-2 mt-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="size-5 inline-block">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                                    </svg>
+                                    <span class="uppercase">2 000£</span>
+                                </div>
+                            </div>
+                            <div class="bg-white rounded overflow-hidden shadow-md relative my-2 hover:shadow-lg">
+                                <a href="Kawasaki-ninja-R.jpg"><img src="Kawasaki-ninja-R.jpg" alt=""
+                                        class="w-full sm:h-48 md:h-42 lg:h-36  object-cover"></a>
+                                <div class="m-4">
+                                    <span class="font-bold text-2xl uppercase">ninja-R</span>
+                                    <span class="block  text-lg uppercase">Kawasaki</span>
+                                </div>
+                                <div
+                                    class="bg-blue-200 text-white text-sm p-2 rounded-full inline absolute top-0 ml-2 mt-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="size-5 inline-block">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                                    </svg>
+                                    <span class="uppercase">6 000£</span>
+                                </div>
+                            </div>
+                            <div class="bg-white rounded overflow-hidden shadow-md relative my-2 hover:shadow-lg">
+                                <a href="KAWASAKI_Z650_LIFESTYLE_ANGLE_4b.jpg"><img
+                                        src="KAWASAKI_Z650_LIFESTYLE_ANGLE_4b.jpg" alt=""
+                                        class="w-full sm:h-48 md:h-42 lg:h-36  object-cover"></a>
+                                <div class="m-4">
+                                    <span class="font-bold text-2xl uppercase">Z650_LIFESTYLE_ANGLE</span>
+                                    <span class="block  text-lg uppercase">KAWASAKI</span>
+                                </div>
+                                <div
+                                    class="bg-blue-200 text-white text-sm p-2 rounded-full inline absolute top-0 ml-2 mt-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="size-5 inline-block">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                                    </svg>
+                                    <span class="uppercase">5 500£</span>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+
+
+                        
+                            <div>
+                                <h4 class="text-gray-700 text-3xl my-4 pb-2 border-b">Les plus populaires</h4>
+                                <div class="py-16 grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4  ">
+                                    <div class="bg-white rounded overflow-hidden shadow-md relative my-2 hover:shadow-lg">
+                                        <a href="Honda-CBF-125.jpg"><img src="Honda-CBF-125.jpg" alt="" class="w-full sm:h-48 md:h-42 lg:h-36  object-cover"></a>
+                                        <div class="m-4">
+                                            <span class="font-bold text-2xl uppercase">CBF-125</span>
+                                            <span class="block  text-lg uppercase">Honda</span>
+                                        </div>
+                                        <div
+                                            class="bg-blue-200 text-white text-sm p-2 rounded-full inline absolute top-0 ml-2 mt-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                                stroke-width="1.5" stroke="currentColor" class="size-5 inline-block">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                                            </svg>
+                                            <span class="uppercase">3 500£</span>
+                                        </div>
+                                    </div>
+                                    <div class="bg-white rounded overflow-hidden shadow-md relative my-2 hover:shadow-lg">
+                                        <a href="GSX_S1000GT.jpg"><img src="GSX_S1000GT.jpg"" class="w-full sm:h-48 md:h-42 lg:h-36  object-cover"></a>
+                                        <div class="m-4">
+                                            <span class="font-bold text-2xl uppercase">S1000GT</span>
+                                            <span class="block  text-lg uppercase">GSX</span>
+                                        </div>
+                                        <div
+                                            class="bg-blue-200 text-white text-sm p-2 rounded-full inline absolute top-0 ml-2 mt-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                                stroke-width="1.5" stroke="currentColor" class="size-5 inline-block">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                                            </svg>
+                                            <span class="uppercase">15 199£</span>
+                                        </div>
+                                    </div>
+                                    <div class="bg-white rounded overflow-hidden shadow-md relative my-2 hover:shadow-lg">
+                                        <a href="Ducati-848R.jpg"><img src="Ducati-848R.jpg" alt="" class="w-full sm:h-48 md:h-42 lg:h-36  object-cover"></a>
+                                        <div class="m-4">
+                                            <span class="font-bold text-2xl uppercase">848R</span>
+                                            <span class="block  text-lg uppercase">Ducati</span>
+                                        </div>
+                                        <div
+                                            class="bg-blue-200 text-white text-sm p-2 rounded-full inline absolute top-0 ml-2 mt-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                                stroke-width="1.5" stroke="currentColor" class="size-5 inline-block">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                                            </svg>
+                                            <span class="uppercase">3 500£</span>
+                                        </div>
+                                    </div>
+                                    <div class="bg-white rounded overflow-hidden shadow-md relative my-2 hover:shadow-lg">
+                                        <a href="doble-150-CC.jpg"><img src="doble-150-CC.jpg" alt="" class="w-full sm:h-48 md:h-42 lg:h-36  object-cover"></a>
+                                        <div class="m-4">
+                                            <span class="font-bold text-2xl uppercase">150-CC</span>
+                                            <span class="block  text-lg uppercase">doble</span>
+                                        </div>
+                                        <div
+                                            class="bg-blue-200 text-white text-sm p-2 rounded-full inline absolute top-0 ml-2 mt-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                                stroke-width="1.5" stroke="currentColor" class="size-5 inline-block">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                                            </svg>
+                                            <span class="uppercase">1 600£</span>
+                                        </div>
+                                    </div>
+                                    <div class="bg-white rounded overflow-hidden shadow-md relative my-2 hover:shadow-lg">
+                                        <a href="CF-moto-400-NK.jpg"><img src="CF-moto-400-NK.jpg" alt="" class="w-full sm:h-48 md:h-42 lg:h-36  object-cover"></a>
+                                        <div class="m-4">
+                                            <span class="font-bold text-2xl uppercase">moto-400-NK</span>
+                                            <span class="block  text-lg uppercase">CF</span>
+                                        </div>
+                                        <div
+                                            class="bg-blue-200 text-white text-sm p-2 rounded-full inline absolute top-0 ml-2 mt-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                                stroke-width="1.5" stroke="currentColor" class="size-5 inline-block">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                                            </svg>
+                                            <span class="uppercase">4 890£</span>
+                                        </div>
+                                    </div>
+                                    <div class="bg-white rounded overflow-hidden shadow-md relative my-2 hover:shadow-lg">
+                                        <a href="bmw_F800GT.jpg"><img src="bmw_F800GT.jpg" alt="" class="w-full sm:h-48 md:h-42 lg:h-36  object-cover"></a>
+                                        <div class="m-4">
+                                            <span class="font-bold text-2xl uppercase">F800GT</span>
+                                            <span class="block  text-lg uppercase">bmw</span>
+                                        </div>
+                                        <div
+                                            class="bg-blue-200 text-white text-sm p-2 rounded-full inline absolute top-0 ml-2 mt-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                                stroke-width="1.5" stroke="currentColor" class="size-5 inline-block">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                                            </svg>
+                                            <span class="uppercase">5 500£</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="pb-16"> 
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="flex justify-center">
+                            <div class="bg-gray-100 text-gray-800 py-2 px-3">Afficher plus...</div>
+                        </div>
+        </main>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                d="m20.25 7.5-.625 10.632a2.25 2.25 0 0 1-2.247 2.118H6.622a2.25 2.25 0 0 1-2.247-2.118L3.75 7.5m6 4.125 2.25 2.25m0 0 2.25 2.25M12 13.875l2.25-2.25M12 13.875l-2.25 2.25M3.375 7.5h17.25c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125Z" />
+        </svg>
+
+    </div>
+</body>
+
+</html>
